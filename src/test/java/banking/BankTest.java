@@ -1,7 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Group: Coffee123
+ * Project 6
+ * Class BankTest.java tests the functionality of Bank.java
  */
 package banking;
 
@@ -15,10 +15,7 @@ import java.util.List;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-/**
- *
- * @author qompu
- */
+
 public class BankTest {
    private Bank bank;
    private Customer customer;
