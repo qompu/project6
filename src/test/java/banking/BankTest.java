@@ -17,10 +17,10 @@ import java.util.TreeSet;
 
 
 public class BankTest {
-   private Bank bank;
-   private Customer customer;
-   private String custID;
-   private Account account;
+    private Bank bank;
+    private Customer customer;
+    private String custID;
+    private Account account;
     public BankTest() {
     }
     
@@ -53,7 +53,7 @@ public class BankTest {
     public void testGetInsufficientFundsPenalty() {
         double actual = bank.getInsufficientFundsPenalty();
         double expected = 10.00;
-        double delta = 0.01;  // assert precission
+        double delta = 0.001;  // assert precision
         
         assertEquals(expected, actual, delta, "GetInsufficientFundsPenalty() failed  >>>");
         
