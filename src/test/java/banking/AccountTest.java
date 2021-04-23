@@ -37,7 +37,7 @@ public class AccountTest {
     public void testDeposit() {
         double actual = bank.getInsufficientFundsPenalty();
         double expected = 10.00;
-        double delta = 0.01;  // assert precission
+        double delta = 0.001;  // assert precision
         
         assertEquals(expected, actual, delta, "GetInsufficientFundsPenalty() failed  >>>");
     }
@@ -49,7 +49,7 @@ public class AccountTest {
     public void testWithdraw() {
         double actual = bank.getInsufficientFundsPenalty();
         double expected = 10.00;
-        double delta = 0.01;  // assert precission
+        double delta = 0.001;  // assert precision
         
         assertEquals(expected, actual, delta, "GetInsufficientFundsPenalty() failed  >>>");
     }
@@ -61,7 +61,7 @@ public class AccountTest {
     public void testTransfer() {
         double actual = bank.getInsufficientFundsPenalty();
         double expected = 10.00;
-        double delta = 0.01;  // assert precission
+        double delta = 0.001;  // assert precision
         
         assertEquals(expected, actual, delta, "GetInsufficientFundsPenalty() failed  >>>");
     }
@@ -87,7 +87,7 @@ public class AccountTest {
     public void testGetBalance() {
         double actual = bank.getInsufficientFundsPenalty();
         double expected = 10.00;
-        double delta = 0.01;  // assert precission
+        double delta = 0.001;  // assert precision
         
             assertEquals(expected, actual, delta, "GetInsufficientFundsPenalty() failed  >>>");
     }
@@ -213,7 +213,7 @@ public class AccountTest {
               account.deposit(10.00);
               double expected = 10.00;
               double actual = 0;
-              double delta = 0.01;  // assert precission
+              double delta = 0.001;  // assert precision
     
               // enter code to retrieve actual amount
           
@@ -224,7 +224,7 @@ public class AccountTest {
               account.withdraw(10.00);
               double expected = 10.00;
               double actual = 0;
-              double delta = 0.01;  // assert precission
+              double delta = 0.001;  // assert precision
     
               // enter code to retrieve actual amount
           
