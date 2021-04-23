@@ -113,7 +113,7 @@ public class CustomerTest {
     public void testYtdFees() {
         double actual = 0; 
         double expected = 10.00;
-        double delta = 0.01;  // assert precission
+        double delta = 0.001;  // assert precision
         
         // add code to get actual ytdfees object
         
@@ -127,7 +127,7 @@ public class CustomerTest {
     public void testYtdInterest() {
         double actual = 0; 
         double expected = 3.00;
-        double delta = 0.01;  // assert precission
+        double delta = 0.001;  // assert precision
         
         // add code to get actual ytdInterest object
         
