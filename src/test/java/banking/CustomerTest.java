@@ -1,4 +1,12 @@
-
+/*
+ * Group: Coffee123
+ * Project 6
+ * Class CustomerTest.java tests the functionality of Bank.java
+ * Reference: Assert java doc: https://junit.org/junit5/docs/5.0.1/api/org/junit/jupiter/api/Assertions.html
+ * use the delta parameter to avoid rounding off issues while comparing floating points.
+ * public static void assertEquals(double expected, double actual, double delta)
+ * Reference: https://java2blog.com/junit-assertequals/
+ */
 package banking;
 
 import java.util.LinkedList;
