@@ -35,9 +35,8 @@ public class SavingsAccountTest {
     public void testDeposit() {
         double actual = 100.00;
         double expected = 100.00;
-        
-        assertEquals(expected, actual);        
         //add code to initialize values
+        assertEquals(expected, actual);        
 
         
         
@@ -50,9 +49,8 @@ public class SavingsAccountTest {
     public void testWithdraw() {
         double actual = 100.00;
         double expected = 100.00;
-        
-        assertEquals(expected, actual);
         //add code to initialize values
+                assertEquals(expected, actual);
 
     }
 
@@ -63,9 +61,8 @@ public class SavingsAccountTest {
     public void testAddInterestTransaction() {
         double actual = 100.00;
         double expected = 100.00;
-        
+        //add code to initialize values        
         assertEquals(expected, actual);
-        //add code to initialize values
 
         
         
@@ -80,8 +77,9 @@ public class SavingsAccountTest {
         System.out.println("GetDefaultInterestRate");
         double expResult = 2.0;
         double result = 2.0;
-        assertEquals(expResult, result);
-                //add code to initialize values
+        //add code to initialize values
+
+        assertEquals(expResult, result);      
 
     }
 
@@ -93,8 +91,8 @@ public class SavingsAccountTest {
         System.out.println("SetDefaultInterestRate");
         double expResult = 2.0;
         double result = 2.0;
+        //add code to initialize values
         assertEquals(expResult, result);
-                //add code to initialize values
 
     }
     //
