@@ -1,4 +1,4 @@
-/*
+/*    
  * Group: Coffee123
  * Project 6
  * Class TransactionType.java tests the functionality of Bank.java
